@@ -31,6 +31,12 @@ ul {
 .logo:active {
   color: red;
 }
+.color-two {
+  color: #212121;
+}
+.color-two-button {
+  color: #ffffff;
+}
 
 .site-nav .link {
   color: var(--basic-text-color);
