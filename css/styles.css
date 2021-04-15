@@ -6,7 +6,18 @@
   --hover-focus-color: #2196f3;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
+  margin: 0;
   font-family: Roboto, sans-serif;
   color: var(--basic-text-color);
   background-color: var(--basic-background-color);
@@ -14,6 +25,15 @@ body {
 
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: 2px solid tomato;
 }
 
 .logo {
@@ -69,25 +89,35 @@ ul {
 }
 
 .hero {
+  text-align: center;
   background-color: var(--additional-background-color);
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .hero-button {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
   color: #ffffff;
-  font-weight: bold;
   background-color: #2196f3;
+  font-weight: bold;
   font-size: 16px;
   line-height: 1, 9;
   text-align: center;
   letter-spacing: 0.06em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--basic-text-color);
 }
 .hero-button:active {
   color: red;
@@ -185,13 +215,35 @@ ul {
   color: red;
 }
 
+.all {
+  display: inline-block;
+}
 .all-buttons {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 6px 22px;
+  display: inline-block;
   color: var(--basic-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 62;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.all-buttons.one {
+  min-width: 73px;
+}
+.all-buttons.two {
+  min-width: 128px;
+}
+.all-buttons.three {
+  min-width: 145px;
+}
+.all-buttons.four {
+  min-width: 103px;
+}
+.all-buttons.five {
+  min-width: 130px;
 }
 .all-buttons:hover,
 .all-buttons:focus {
