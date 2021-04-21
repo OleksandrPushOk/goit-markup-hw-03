@@ -78,13 +78,15 @@ ul {
 }
 .site-nav .iten {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .site-nav .iten + .iten {
-  margin-left: 50px;
+  padding-left: 50px;
 }
 .site-nav .link {
+  margin-bottom: 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--basic-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -132,15 +134,15 @@ ul {
 }
 
 .hero {
-  margin-bottom: 94px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-bottom: 94px;
 
   text-align: center;
   background-color: var(--additional-background-color);
 }
 .hero-title {
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 30px;
 
   color: #ffffff;
@@ -176,6 +178,9 @@ ul {
   display: flex;
   justify-content: space-between;
   margin-bottom: 94px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .quality-list {
   width: 270px;
@@ -208,6 +213,7 @@ ul {
 
 .work {
   margin-bottom: 82px;
+  padding-bottom: 0px;
 }
 .work-title {
   margin-top: 0px;
@@ -257,8 +263,10 @@ ul {
   margin-bottom: 30px;
 }
 .team-list {
+  display: flex;
   margin-top: 0px;
   margin-bottom: 10px;
+  justify-content: center;
 
   color: var(--basic-text-color);
   font-weight: 500;
@@ -267,8 +275,10 @@ ul {
   letter-spacing: 0.03em;
 }
 .team-text {
+  display: flex;
   margin-top: 0px;
   margin-bottom: 30px;
+  justify-content: center;
 
   color: #757575;
   font-size: 16px;
@@ -414,6 +424,8 @@ ul {
 .photo h2 {
   margin-top: 0px;
   margin-bottom: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
 
   color: var(--basic-text-color);
   font-weight: bold;
@@ -424,6 +436,8 @@ ul {
 .photo p {
   margin-top: 0px;
   margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
 
   color: var(--additional-text-color);
   font-size: 16px;
