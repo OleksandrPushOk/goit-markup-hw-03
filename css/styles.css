@@ -64,11 +64,14 @@ ul {
 .logo:active {
   color: red;
 }
+
 .logo .color-two {
   color: #212121;
-}
-.color-two-button {
-  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .site-nav {
@@ -115,7 +118,7 @@ ul {
   padding-bottom: 32px;
 }
 .connection .with-us + .with-us {
-  margin-left: 50px;
+  padding-left: 50px;
 }
 .connection .contacts {
   color: #757575;
@@ -136,8 +139,6 @@ ul {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
-
   text-align: center;
   background-color: var(--additional-background-color);
 }
@@ -177,10 +178,9 @@ ul {
 .quality {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   padding-left: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 .quality-list {
   width: 270px;
@@ -212,8 +212,7 @@ ul {
 }
 
 .work {
-  margin-bottom: 82px;
-  padding-bottom: 0px;
+  padding-bottom: 94px;
 }
 .work-title {
   margin-top: 0px;
@@ -254,6 +253,9 @@ ul {
 .team-future {
   display: flex;
   padding: 0px;
+}
+.team-best {
+  background-color: #ffffff;
 }
 .team-future .team-best + .team-best {
   margin-left: 30px;
@@ -296,11 +298,15 @@ ul {
   display: inline-block;
   margin-bottom: 20px;
 
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
   color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
+
 .component-logo:hover,
 .component-logo:focus {
   color: #ffffff;
@@ -308,6 +314,15 @@ ul {
 .component-logo:active {
   color: red;
 }
+.color-two-button {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 .group-address {
   padding-left: 0px;
 }
@@ -350,8 +365,8 @@ ul {
 }
 
 .collection {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .all {
   justify-content: center;
