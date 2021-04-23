@@ -38,11 +38,11 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
-
+.cap {
+  border-bottom: 1px rgba(236, 236, 236, 1);
+}
 .main-nav {
   display: flex;
-
-  border-bottom: 1px rgba(236, 236, 236, 1);
 }
 .logo {
   display: block;
@@ -114,10 +114,10 @@ ul {
 }
 .connection .with-us {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
-.connection .with-us + .with-us {
+.call {
   padding-left: 50px;
 }
 .connection .contacts {
@@ -174,13 +174,14 @@ ul {
 .hero-button:active {
   color: red;
 }
-
-.quality {
-  display: flex;
-  justify-content: space-between;
+.information {
   padding-top: 94px;
   padding-bottom: 94px;
   padding-left: 0px;
+}
+.quality {
+  display: flex;
+  justify-content: space-between;
 }
 .quality-list {
   width: 270px;
@@ -264,8 +265,7 @@ ul {
   margin-top: 0px;
 }
 .team-group {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px;
 }
 .team-list {
   display: flex;
@@ -377,7 +377,7 @@ ul {
 .all {
   justify-content: center;
   display: flex;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   padding-left: 0px;
 }
 
@@ -393,24 +393,28 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.all li + li {
+  margin-left: 8px;
+}
 .all-buttons.one {
   min-width: 73px;
+  height: 38px;
 }
 .all-buttons.two {
-  margin-left: 8px;
   min-width: 128px;
+  height: 38px;
 }
 .all-buttons.three {
-  margin-left: 8px;
   min-width: 145px;
+  height: 38px;
 }
 .all-buttons.four {
-  margin-left: 8px;
   min-width: 103px;
+  height: 38px;
 }
 .all-buttons.five {
-  margin-left: 8px;
   min-width: 130px;
+  height: 38px;
 }
 .all-buttons:hover,
 .all-buttons:focus {
